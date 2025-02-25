@@ -2,7 +2,7 @@
 #python can detect automatic data type
 #1. int 
 d1=5
-print(type(d1))
+print(t
 #2. float
 float_type=12.5
 print(type(float_type))
