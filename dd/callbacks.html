@@ -1,0 +1,41 @@
+<html>  
+<head>  
+  
+</head>  
+<body>  
+<h1> Hello World :) :) </h1>  
+<h2> This is the javaTpoint.com </h2>  
+<script>  
+function showData(name, amt) {  
+alert(' Hello ' + name + '\n Your entered amount is ' + amt);  
+}  
+  
+function getData(callback) {  
+var name = prompt(" Welcome to the javaTpoint.com \n What is your name?");  
+var amt = prompt(" Enter some amount...");  
+callback(name, amt);  
+}  
+  
+getData(showData);  
+</script>  
+</body>  
+  
+</html>  
+
+
+<!-- 
+function sum(a,b){
+    console.log(a+b)
+    return a+b;
+}
+function f1(x,call){
+    console.log("inside f1 function",x)
+    call(x)
+   
+}
+function f2(x){
+    console.log(x+5)
+    
+}
+a=sum(5,5)
+f1(a,f2) -->
